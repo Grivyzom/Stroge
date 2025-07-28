@@ -24,12 +24,12 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(800, 600)
+        MainWindow.resize(1126, 868)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.centralwidget_2 = QWidget(self.centralwidget)
         self.centralwidget_2.setObjectName(u"centralwidget_2")
-        self.centralwidget_2.setGeometry(QRect(250, 110, 384, 234))
+        self.centralwidget_2.setGeometry(QRect(13, 13, 761, 130))
         self.mainLayout_2 = QHBoxLayout(self.centralwidget_2)
         self.mainLayout_2.setObjectName(u"mainLayout_2")
         self.mainLayout_2.setContentsMargins(0, 0, 0, 0)
@@ -70,7 +70,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 800, 33))
+        self.menubar.setGeometry(QRect(0, 0, 1126, 33))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
